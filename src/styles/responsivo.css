@@ -1,0 +1,28 @@
+.App{
+    margin-top: 1rem;
+}
+.headerMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.imgHeader{
+    width:16rem;
+}
+.imgHeader img{
+    width: 100%;
+}
+.buttonSiderBar{
+    font-size: 2rem;
+    position: absolute;
+    right: 2%;
+    top: 4%;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
