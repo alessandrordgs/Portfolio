@@ -1,22 +1,26 @@
 import { useState } from 'react';
-import { Header } from './components/Header'
-import { FaBars } from 'react-icons/fa'
-import { Button } from './components/Button';
+
 import DevSentado from './assets/DevSentado.svg'
 import Github from './assets/github.svg'
 import Instagram from './assets/instagram.svg'
 import linkedin from './assets/linkedin.svg'
 
-import './styles/responsivo.css'
+import { FaBars } from 'react-icons/fa'
+
+import { Header } from './components/Header'
+import { Button } from './components/Button';
 import { HardSkill } from './components/HardSkill';
+
 import { Projects } from './Projects';
+
+import './styles/responsivo.css'
 function App() {
   const [sidebar, setSidebar] = useState(false);
   const showsidebar = () => setSidebar(!sidebar)
   return (
 
     <div className="App">
-      <button className="buttonSiderBar" onClick={showsidebar}> <FaBars /></button>
+      <button className="buttonSiderBar" onClick={showsidebar}> <FaBars /> </button>
       {sidebar ?
         <div className="containerHeader" onClick={showsidebar}>
           <Header />
