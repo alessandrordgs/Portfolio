@@ -1,22 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html, h1, span, button{
-    font-family: 'Roboto', sans-serif;
-}
-button{
-    cursor: pointer;
-    border: none;
-}
-html{
-    background-color:#F3F3F3 ;
-}
+*{margin: 0;padding: 0; box-sizing: border-box;}
+html, h1, span, button{font-family: 'Roboto', sans-serif;}
+button{ cursor: pointer;border: none;}
+html{background-color:#F3F3F3 ;}
+button{background: none;}
+h1,h2,span, a{color: #263238;text-decoration: none;}
+.flex{display: flex;align-items: center;justify-content: center;}
+.flexColumn{display: flex;align-items: center;justify-content: center;flex-direction: column;}
 
-button{
-    background: none;
-}
-h1,h2,span, a{
-    color: #263238;
-}
