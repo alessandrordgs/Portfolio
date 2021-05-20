@@ -11,17 +11,18 @@ nav{
     background: #fff;
     height: 100vh;
     border-top-right-radius: 0.5rem;
+    width: 15rem;
    
 }
 nav a {
     text-decoration: none;
     color:#000000;
     font-weight: 400;
-    font-size: 1.2rem;
-    margin: 2rem 0 2rem 1rem;
+    font-size: 1.3rem;
+    margin: 2rem 0 2rem 1.5rem;
     display: flex;
     align-items: center;
 }
 a p{
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
