@@ -1,17 +1,27 @@
-.containerHeader{
-    border: 1px solid #000;
-    position: absolute;
-    background:#fff;
-}
+.containerHeader{background: rgba(0, 0, 0, 0.5); position: fixed;top: 0; left: 0;right: 0; bottom: 0;}
 header{
     width:10rem;
     display: flex;
     flex-direction: column;
+    transition: all 2s;
 }
-header a {
+nav{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    height: 100vh;
+    border-top-right-radius: 0.5rem;
+   
+}
+nav a {
     text-decoration: none;
     color:#000000;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.2rem;
-    
+    margin: 2rem 0 2rem 1rem;
+    display: flex;
+    align-items: center;
+}
+a p{
+    margin-left: 0.5rem;
 }

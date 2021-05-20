@@ -17,16 +17,12 @@ function App() {
     <div className="App">
       <button className="buttonSiderBar" onClick={showsidebar}> <FaBars /></button>
       {sidebar ?
-        <div className="containerHeader">
-
-          <Header title="Home" link="#" />
-          <Header title="Habilidades" link="#" />
-          <Header title="Projetos" link="#" />
-          <Header title="Sobre mim" link="#" />
+        <div className="containerHeader" onClick={showsidebar}>
+          <Header/>
         </div> :
         null}
       <main>
-        <section className='headerMain'>
+        <section id='home' className='headerMain'>
           <div className="imgHeader">
             <img src={DevSentado} alt="Desenvolvedor sentado escrevendo codigo." />
           </div>
@@ -41,7 +37,7 @@ function App() {
           <Button buttonTitle="Instagram" link="https://www.instagram.com/forgerdgs/" icon={linkedin} alt="a" />
         </section>
 
-        <section className="skills">
+        <section id="skills" className="skills">
           <h2>
             Habilidades & conhecimentos
          </h2>

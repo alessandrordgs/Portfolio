@@ -2,7 +2,7 @@
 .headerMain{display: flex;justify-content: center;align-items: center;flex-direction: column;margin-top: 4rem;}
 .imgHeader{width:16rem;}
 .imgHeader img{width: 100%;}
-.buttonSiderBar{font-size: 2rem;position: absolute;right: 2%;top: 4%;}
+.buttonSiderBar{font-size: 2rem;position: absolute;left: 2%;top: 4%;}
 .buttonContainer{display: flex;justify-content: center;align-items: center;flex-direction: column;}
 .containerGallery{display: flex;justify-content: center;align-items: center;}
 .skills{display: flex;justify-content: center;align-items: center;flex-direction: column;margin-top: 3rem;}
