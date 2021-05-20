@@ -41,11 +41,11 @@ function App() {
           <Button buttonTitle="Instagram" link="https://www.instagram.com/forgerdgs/" icon={linkedin} alt="a" />
         </section>
 
-        <section>
+        <section className="skills">
           <h2>
             Habilidades & conhecimentos
          </h2>
-          <div>
+          <div className="containerGallery">
             <HardSkill />
           </div>
         </section>
