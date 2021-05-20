@@ -17,3 +17,6 @@ html{
 button{
     background: none;
 }
+h1,h2,span, a{
+    color: #263238;
+}

@@ -3,11 +3,12 @@ interface ButtonProps{
     link:string,
     icon:string,
     buttonTitle:string,
+    alt?: string,
 }
-export function Button ({buttonTitle,icon,link}:ButtonProps){
+export function Button ({buttonTitle,icon,link, alt}:ButtonProps){
     return(
         <>
-        <a className="a" target="_blank"  rel="noopener noreferrer" href={link}><img src={icon} alt=""/><span>{buttonTitle}</span></a>
+        <a className="a" target="_blank"  rel="noopener noreferrer" href={link}><img src={icon} alt={alt}/><span>{buttonTitle}</span></a>
         </>
     )
 }
