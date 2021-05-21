@@ -1,0 +1,14 @@
+.App{margin-top: 1rem;}
+.headerMain{margin-top: 4rem;}
+.imgHeader{width:16rem;}
+.imgHeader img{width: 100%;}
+.buttonSiderBar{font-size: 2rem;position: absolute;left: 2%;top: 4%;}
+.skills{margin-top: 3rem;}
+.skills h2{margin-bottom: 2rem;}
+@media (min-width:768px) {
+    .containerMain{display: flex;flex-direction: row;align-items: center;justify-content: center;}
+    .imgHeader{margin-right:20rem; width: 30rem;}
+    #projects{margin-top: 4rem;}
+    #projects h2{margin-bottom: 2rem;}
+    .projectsDesktop{display: grid;flex-direction: row;grid-template-columns: 1fr 1fr 1fr;column-gap: 4rem;}
+}

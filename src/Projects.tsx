@@ -5,6 +5,7 @@ export function Projects(){
         <>
         <ProjectsComponent img={siteHome} title="TCC Home" site="https://home-three-taupe.vercel.app" github="https://github.com/alessandrordgs/home"/>
         <ProjectsComponent img={siteHome} title="TCC Home" site="https://home-three-taupe.vercel.app" github="https://github.com/alessandrordgs/home"/>
+        <ProjectsComponent img={siteHome} title="TCC Home" site="https://home-three-taupe.vercel.app" github="https://github.com/alessandrordgs/home"/>
         </>
     )
 }
