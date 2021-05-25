@@ -1,5 +1,6 @@
-.containerHeader{background: rgba(0, 0, 0, 0.5); position: fixed;top: 0; left: 0;right: 0; bottom: 0; transition: background 2s;}
+.containerHeader{background: rgba(0, 0, 0, 0.5); position: fixed;top: 0; left: 0;right: 0; bottom: 0;}
 header{width:10rem;display: flex;flex-direction: column;}
-nav{display: flex;flex-direction: column;background: #fff;height: 100vh; border-top-right-radius: 0.5rem; width: 15rem;}
-nav a {text-decoration: none;color:#000000;font-weight: 400;font-size: 1.3rem;margin: 2rem 0 2rem 1.5rem;display: flex;align-items: center;}
+nav{display: flex;flex-direction: column;background: #fff;height: 100vh; border-top-right-radius: 0.5rem; width: 15rem;} 
+nav a {text-decoration: none;color:#000000;font-weight: 400;font-size: 1.3rem;margin: 2rem 0 2rem 1.5rem;display: flex;align-items: center; transition: color 0.4s;}
+nav a:hover{color:#3B7BE1;}
 a p{margin-left: 1rem;}

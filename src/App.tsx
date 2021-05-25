@@ -14,6 +14,7 @@ import { HardSkill } from './components/HardSkill';
 import { Projects } from './Projects';
 
 import './styles/main.css'
+import { About } from './components/About';
 function App() {
   const [sidebar, setSidebar] = useState(false);
   const showsidebar = () => setSidebar(!sidebar)
@@ -56,6 +57,10 @@ function App() {
             <HardSkill />
           </div>
 
+        </section>
+        <section>
+          <h1>Sobre mim</h1>
+          <About/>
         </section>
 
         <section className="flexColumn projectsDesktop" id="projects">

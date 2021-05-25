@@ -4,10 +4,11 @@ import {AiOutlineGithub} from 'react-icons/ai'
 interface ProjectsProps{
  img:string,
  title:string;
+ description:string;
  site:string;
  github:string;
 }
-export function ProjectsComponent({github,img,site,title} : ProjectsProps){
+export function ProjectsComponent({github,img,site,title, description} : ProjectsProps){
     return(
         <div className="project flex">
             <div className="flex projectImg">
@@ -15,9 +16,10 @@ export function ProjectsComponent({github,img,site,title} : ProjectsProps){
             </div>
             <div className="flexColumn">
                 <h2>{title}</h2>
+                <p>{description}</p>
                 <div className="buttonContainer">
-                    <button ><a target="_blank" className="flex"  rel="noopener noreferrer" href={site}><HiCode size={25}/><p>Website</p></a></button>
-                    <button><a target="_blank" className="flex"  rel="noopener noreferrer" href={github}><AiOutlineGithub size={25}/><p>Github</p></a></button>
+                    <button ><a target="_blank" className="flex"  rel="noopener noreferrer" href={site}><HiCode size={25}/><span>Website</span></a></button>
+                    <button><a target="_blank" className="flex"  rel="noopener noreferrer" href={github}><AiOutlineGithub size={25}/><span>Github</span></a></button>
                 </div>
             </div>
         </div>
