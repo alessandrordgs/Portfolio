@@ -58,15 +58,13 @@ function App() {
           </div>
 
         </section>
-        <section>
+        <section className='flexColumn'>
           <h1>Sobre mim</h1>
           
         </section>
 
         <section className="flexColumn projectsDesktop" id="projects">
-          <h2>
-            Projetos
-            </h2>
+          <h2>Projetos</h2>
          <div className="projectsDesktop">
          <Projects />
          </div>
