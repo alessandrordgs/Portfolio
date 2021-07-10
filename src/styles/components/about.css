@@ -1,14 +1,15 @@
 .main-about{
   width: 80%;
-  background-color: #455A64;
+  background-color: #fff;
   padding: 1rem;
   border-radius: 0.8rem;
   margin-left: 3rem;
   margin-bottom: 2rem;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
 }
 .main-about p {
   text-align: justify;
-  color: #fff;
+  color: #000;
   font-size: 1.1rem;
 }
 
@@ -22,7 +23,6 @@
   }
   .main-about p {
     text-align: justify;
-    color: #fff;
     font-size: 1.1rem;
   }
 }
