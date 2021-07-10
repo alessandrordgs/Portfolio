@@ -14,6 +14,7 @@ import { HardSkill } from './components/HardSkill';
 import { Projects } from './Projects';
 
 import './styles/main.css'
+import { About } from './components/About';
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
@@ -48,20 +49,23 @@ function App() {
           </section>
         </div>
 
-        <section id="skills" className="flexColumn skills">
-          <h2>
-            Habilidades & conhecimentos
-             </h2>
+        <div className="flex about">
+            <section id="skills" className="flexColumn skills">
+              <h2>
+                Habilidades & conhecimentos
+                </h2>
 
-          <div className="flexColumn">
-            <HardSkill />
-          </div>
+              <div className="flexColumn">
+                <HardSkill />
+              </div>
 
-        </section>
-        <section className='flexColumn'>
-          <h1>Sobre mim</h1>
-          
-        </section>
+            </section>
+            
+            <section className="about-section">
+              <h1>Sobre mim</h1>
+                <About/>
+            </section>
+        </div>
 
         <section className="flexColumn projectsDesktop" id="projects">
           <h2>Projetos</h2>

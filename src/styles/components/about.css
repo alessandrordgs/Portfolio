@@ -1,0 +1,13 @@
+.main-about{
+  width: 70%;
+  background-color: #455A64;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  height: 12rem;
+ margin-left: 3rem;
+}
+.main-about p {
+  text-align: justify;
+  color: #fff;
+  font-size: 1.1rem;
+}

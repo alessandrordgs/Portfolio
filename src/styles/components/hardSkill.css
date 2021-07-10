@@ -2,5 +2,9 @@
 .gallery div{width: 5rem;}
 .gallery img{display: flex;justify-content: center;align-items: center;width: 100%;}
 @media (min-width:768px) {
-    .gallery{display: flex;} .gallery div{width: 7rem;}
+    .gallery{
+        column-gap: 4rem;
+        width: 100%;
+    }
+  
 }
