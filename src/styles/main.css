@@ -14,7 +14,7 @@
     #projects{margin-top: 4rem;}
     #projects h2{margin-bottom: 2rem;}
     .projectsDesktop{display: grid;flex-direction: row;grid-template-columns: 1fr 1fr 1fr;column-gap: 4rem;}
-    .about{width: 100%;}
+    .about{width: 100%; flex-direction: row;}
     .about-section{width: 100%;}
     .about-section h1{ margin-left: 13rem;}
 }
