@@ -1,13 +1,29 @@
 .main-about{
-  width: 70%;
+  width: 80%;
   background-color: #455A64;
   padding: 1rem;
   border-radius: 0.8rem;
-  height: 12rem;
- margin-left: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 .main-about p {
   text-align: justify;
   color: #fff;
   font-size: 1.1rem;
+}
+
+@media(min-width:768px){
+  .main-about{
+    width: 70%;
+    background-color: #455A64;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    height: 12rem;
+   margin-left: 3rem;
+  }
+  .main-about p {
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+  }
 }
