@@ -44,8 +44,8 @@ function App() {
               </h1>
             <span>Estudante | Dev. Front-End</span>
             <Button buttonTitle="Github" link="https://github.com/alessandrordgs" icon={Github} alt="Logo do github, um gato polvo branco" />
-            <Button buttonTitle="LinkedIn" link="https://www.linkedin.com/in/alessandrorodrigues2134" icon={Instagram} alt="logo do Linkedin " />
-            <Button buttonTitle="Instagram" link="https://www.instagram.com/forgerdgs/" icon={linkedin} alt="a" />
+            <Button buttonTitle="LinkedIn" link="https://www.linkedin.com/in/alessandrorodrigues2134" icon={linkedin} alt="logo do Linkedin " />
+            <Button buttonTitle="Instagram" link="https://www.instagram.com/forgerdgs/" icon={Instagram} alt="a" />
           </section>
         </div>
 
