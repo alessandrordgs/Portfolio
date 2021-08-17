@@ -11,8 +11,8 @@ export function Header() {
                 <nav>
                     <a href="#home"><HiOutlineHome size={25} /> <p>Home</p></a>
                     <a href="#skills"><BsCode size={25} /> <p>Habilidades</p></a>
-                    <a href="#projects"><FaLaptopCode size={25} /><p>Projetos</p></a>
                     <a href="#about"><FiUser size={25} /><p> Sobre</p></a>
+                    <a href="#projects"><FaLaptopCode size={25} /><p>Projetos</p></a>
                 </nav>
             </header>
         </>
