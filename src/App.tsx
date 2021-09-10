@@ -73,6 +73,7 @@ function App() {
          <Projects />
          </div>
         </section>
+
       </main>
     </div>
   );
